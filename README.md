@@ -39,24 +39,20 @@ A clean and modern **To-Do List** application built using **React Native** with 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+https://github.com/KrishanthaBSomarathna/ToDoApp.git
+cd ToDoApp
 ```
 
 ### 2. Install dependencies
 
 ```bash
 npm install
-# or
-yarn install
 ```
 
 ### 3. Start the app
 
 ```bash
 npm start
-# or
-yarn start
 ```
 
 Make sure you have Expo CLI installed:
@@ -91,22 +87,7 @@ npm install -g expo-cli
 - [ ] Backend sync (Firebase or Supabase)
 - [ ] Swipe-to-delete animation
 
----
 
-## 🧑‍💻 Author
-
-**Your Name** – [@yourusername](https://github.com/yourusername)
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License.
-```
-
----
-
-Let me know if you'd like this in a file format (`README.md`) or customized with your actual GitHub username and repo name!
 
 
 
