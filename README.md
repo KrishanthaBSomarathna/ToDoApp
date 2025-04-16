@@ -28,9 +28,9 @@ A clean and modern **To-Do List** application built using **React Native** with 
 ## 📸 Screenshots
 
 <!-- Add your screenshots here -->
-```
+
 ![todoapp](https://github.com/user-attachments/assets/713ec522-332c-4a44-8206-aef1c317b7f5)
-```
+
 
 ---
 
