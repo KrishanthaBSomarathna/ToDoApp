@@ -1,50 +1,112 @@
-# Welcome to your Expo app 👋
+# ✅ React Native To-Do App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and modern **To-Do List** application built using **React Native** with **TypeScript**.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- ✅ Add, delete, and toggle todo items
+- 🔍 Search through tasks
+- 💾 Persist data using `AsyncStorage`
+- 📱 Responsive and cross-platform UI using `SafeAreaView`
+- ☑️ Custom checkbox support with `expo-checkbox`
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🧱 Tech Stack
 
-In the output, you'll find options to open the app in a
+- [React Native (Expo)](https://expo.dev/)
+- TypeScript
+- AsyncStorage (`@react-native-async-storage/async-storage`)
+- `expo-checkbox`
+- `@expo/vector-icons`
+- `react-native-safe-area-context`
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📸 Screenshots
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+<!-- Add your screenshots here -->
+```
+![todoapp](https://github.com/user-attachments/assets/713ec522-332c-4a44-8206-aef1c317b7f5)
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🚀 Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+### 1. Clone the repo
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
 
-## Join the community
+### 2. Install dependencies
 
-Join our community of developers creating universal apps.
+```bash
+npm install
+# or
+yarn install
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 3. Start the app
+
+```bash
+npm start
+# or
+yarn start
+```
+
+Make sure you have Expo CLI installed:
+
+```bash
+npm install -g expo-cli
+```
+
+---
+
+## 📂 Project Structure
+
+```
+.
+├── app/
+│   └── data/
+│       └── todolist.ts      # (optional) predefined todos
+├── components/
+├── screens/
+│   └── Index.tsx           # Main screen with all logic
+├── assets/
+├── package.json
+└── README.md
+```
+
+---
+
+## 📌 Future Improvements
+
+- [ ] Add due dates and reminders
+- [ ] Dark mode support
+- [ ] Backend sync (Firebase or Supabase)
+- [ ] Swipe-to-delete animation
+
+---
+
+## 🧑‍💻 Author
+
+**Your Name** – [@yourusername](https://github.com/yourusername)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+```
+
+---
+
+Let me know if you'd like this in a file format (`README.md`) or customized with your actual GitHub username and repo name!
+
+
+
